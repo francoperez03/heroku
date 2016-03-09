@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mercado Franco</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+  <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+</head>
+<body>
+
+<div class="top-bar">
+<div class="top-bar-left">
+<ul class="menu">
+<li class="menu-text">Marketing Site</li>
+<li><a href="#">One</a></li>
+<li><a href="#">Two</a></li>
+</ul>
+</div>
+<div class="top-bar-right">
+<ul class="menu">
+<li><a href="#">Three</a></li>
+<li><a href="#">Four</a></li>
+<li><a href="#">Five</a></li>
+<li><a href="#">Six</a></li>
+</ul>
+</div>
+</div>
+
+<%= yield %>
+
+<div class="large-3 large-offset-2 columns">
+<ul class="menu vertical">
+<li><a href="#">One</a></li>
+<li><a href="#">Two</a></li>
+<li><a href="#">Three</a></li>
+<li><a href="#">Four</a></li>
+</ul>
+</div>
+
+
+
+</body>
+</html>
+
